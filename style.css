@@ -52,3 +52,46 @@ footer {
     color: gray;
     padding: 20px;
 }
+
+form {
+        background-color: lightcyan;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      fieldset {
+        border: none;
+        margin-bottom: 15px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+
+      textarea {
+        height: 100px;
+      }
+
+      button {
+        background-color: royalblue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: darkblue;
+      }
