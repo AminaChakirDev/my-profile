@@ -12,8 +12,17 @@ header {
     padding: 40px;
 }
 
+.green {
+    color: green;
+}
+
+.purple {
+    color: purple;
+}
+
 h1 {
     font-size: 32px;
+    color: red;
 }
 
 main {
@@ -27,10 +36,6 @@ section {
     border: 1px solid lightgray;
     margin: 10px;
     border-radius: 10px;
-}
-
-h2 {
-    color: royalblue;
 }
 
 a {
@@ -53,45 +58,4 @@ footer {
     padding: 20px;
 }
 
-form {
-        background-color: lightcyan;
-        padding: 20px;
-        border-radius: 10px;
-      }
 
-      fieldset {
-        border: none;
-        margin-bottom: 15px;
-      }
-
-      label {
-        display: block;
-        margin-bottom: 5px;
-        font-weight: bold;
-      }
-
-      input,
-      textarea {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid lightgray;
-        border-radius: 5px;
-        box-sizing: border-box;
-      }
-
-      textarea {
-        height: 100px;
-      }
-
-      button {
-        background-color: royalblue;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-
-      button:hover {
-        background-color: darkblue;
-      }

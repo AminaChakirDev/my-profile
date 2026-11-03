@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ma première page CSS</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <header>
-    <h1>Bonjour, moi c'est Alex !</h1>
-    <p>Apprenant en développement web</p>
+    <h1 class="green purple">Bonjour, moi c'est Alex !</h1>
+    <!-- <a href="">TOTO</a> -->
+
+    <p>Apprenant en <span class="titi">développement web</span></p>
+    <p>Apprenant en <span class="titi">développement web</span></p>
+    <p>Apprenant en <span class="titi">développement web</span></p>
+
   </header>
 
   <main>
-    <section>
+    <section class="about">
       <h2>À propos de moi</h2>
       <p>
         Je découvre le développement web et
@@ -23,10 +30,10 @@
       </p>
     </section>
 
-    <section>
+    <section class="passion">
       <h2>Mes passions</h2>
       <ul>
-        <li>Cinéma</li>
+        <li id="toto" class="tutu">Cinéma</li>
         <li>Musique</li>
         <li>Voyages</li>
       </ul>
@@ -34,6 +41,11 @@
 
     <section>
       <h2>Contact</h2>
+      <ul>
+        <li>Cinéma</li>
+        <li>Musique</li>
+        <li>Voyages</li>
+      </ul>
       <p>Envie de discuter ?</p>
       <a href="mailto:alex@example.com">
         Me contacter
@@ -41,9 +53,10 @@
     </section>
   </main>
 
-  <footer>
+  <footer id="toto">
     <p>Ma première page web - 2026</p>
   </footer>
 
 </body>
+
 </html>
